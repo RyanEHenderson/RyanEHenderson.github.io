@@ -60,6 +60,13 @@ img {
   margin-right: auto;
 }
 
+.res-section-list {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  border: thin solid black;
+}
+
+/* Navigation */
 nav {
   border: 1em solid dimgrey;
   border-radius: 5px;
@@ -80,15 +87,15 @@ nav li a {
   text-align: center;
 }
 
-nav li a:hover {
-  background-color: black;
-}
-
 .current a {
   font-weight: bold;
   font-size: 105%;
   color: whitesmoke;
   background-color: slategrey;
+}
+
+nav li a:hover {
+  background-color: black;
 }
 
 footer {
