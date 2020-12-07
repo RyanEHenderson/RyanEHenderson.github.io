@@ -49,8 +49,13 @@ li {
   list-style: disc outside none;
 }
 
+body {
+  max-width: 60em;
+}
+
 img {
   width: 100%;
+  max-width: 20em;
   height: auto;
   display: block;
   margin-left: auto;
