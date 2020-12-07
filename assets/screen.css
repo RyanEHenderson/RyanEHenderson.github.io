@@ -60,6 +60,20 @@ img {
   margin-right: auto;
 }
 
+#pepper, #oscar, #macyminniemango {
+  width: 30%;
+  float: right;
+  padding-left: 1em;
+  padding-right: 0;
+}
+
+#gracie, #bertdoodle, #oreopatches {
+  width: 30%;
+  float: left;
+  padding-left: 0;
+  padding-right: 1em;
+}
+
 .res-section-list {
   padding-top: 1em;
   padding-bottom: 1em;
@@ -120,6 +134,19 @@ footer {
   body {
     margin-left: 10%;
     margin-right: 10%;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  #oreopatches {
+    margin: auto;
+    float: none;
+  }
+}
+
+@media screen and (min-width: 1235px) {
+  #oscar {
+    width: 25%;
   }
 }
 
