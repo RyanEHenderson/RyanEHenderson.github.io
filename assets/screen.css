@@ -91,3 +91,16 @@ footer {
     padding-left: 1em;
   }
 }
+
+@media screen and (min-width: 650px) {
+  body {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
+
+@media screen and (min-width: 1350px) {
+  body {
+    margin: auto;
+  }
+}
