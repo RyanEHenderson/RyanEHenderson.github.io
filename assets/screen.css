@@ -60,15 +60,35 @@ img {
   margin-right: auto;
 }
 
-nav ul {
-  display: block;
+nav {
+  border: 1em solid dimgrey;
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: grey;
 }
 
-nav li {
+nav ul li {
   list-style-type: none;
   float: left;
-  padding-right: 1em;
+}
+
+nav li a {
+  text-decoration: none;
+  color: white;
   display: block;
+  padding: 1em 1em;
+  text-align: center;
+}
+
+nav li a:hover {
+  background-color: black;
+}
+
+.current a {
+  font-weight: bold;
+  font-size: 105%;
+  color: whitesmoke;
+  background-color: slategrey;
 }
 
 footer {
