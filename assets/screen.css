@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap");
 
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
@@ -11,13 +11,13 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* Begin site styles below */
 
 html {
-  font-family: 'Crimson Text', 'Hoefler Text', Georgia, 'Times New Roman', serif;
+  font-family: "Crimson Text", "Hoefler Text", Georgia, "Times New Roman", serif;
   font-size: 110%;
   line-height: 120%;
   padding: 1em;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
 }
 
@@ -29,7 +29,7 @@ p {
   padding-bottom: 1em;
 }
 
-ul,ol {
+ul, ol {
   padding-left: 2em;
 }
 
@@ -40,7 +40,6 @@ li {
 img {
   width: 100%;
   height: auto;
-  align: center;
   display: block;
   margin-left: auto;
   margin-right: auto;
