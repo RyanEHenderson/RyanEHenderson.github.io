@@ -29,6 +29,14 @@ h1 {
   font-size: 120%;
 }
 
+h1, h2 {
+  padding-bottom: 1em;
+}
+
+h2 {
+  font-size: 110%;
+}
+
 p {
   padding-bottom: 1em;
 }
