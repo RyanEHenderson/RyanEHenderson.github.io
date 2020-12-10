@@ -145,7 +145,15 @@ footer {
 
 @media screen and (min-width: 1235px) {
   #oscar {
+    display: block;
     width: 25%;
+    max-width: 10em;
+  }
+  #pepper {
+    max-width: 15em;
+  }
+  #p1, #p2 {
+    padding-bottom: 4em;
   }
 }
 
