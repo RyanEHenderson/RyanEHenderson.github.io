@@ -60,20 +60,6 @@ img {
   margin-right: auto;
 }
 
-#pepper, #oscar, #macyminniemango {
-  width: 30%;
-  float: right;
-  padding-left: 1em;
-  padding-right: 0;
-}
-
-#gracie, #bertdoodle, #oreopatches {
-  width: 30%;
-  float: left;
-  padding-left: 0;
-  padding-right: 1em;
-}
-
 .res-section-list {
   padding-top: 1em;
   padding-bottom: 1em;
@@ -128,6 +114,20 @@ footer {
     float: right;
     width: 50%;
     padding-left: 1em;
+  }
+
+  #pepper, #oscar, #macyminniemango {
+    width: 30%;
+    float: right;
+    padding-left: 1em;
+    padding-right: 0;
+  }
+
+  #gracie, #bertdoodle, #oreopatches {
+    width: 30%;
+    float: left;
+    padding-left: 0;
+    padding-right: 1em;
   }
 
   body {
